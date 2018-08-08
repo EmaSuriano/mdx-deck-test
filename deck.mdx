@@ -1,0 +1,33 @@
+import { Image, Appear } from 'mdx-deck'
+export { swiss  as theme } from 'mdx-deck/themes'
+import { Split } from 'mdx-deck/layouts'
+
+
+# Cards and more cards!
+
+<Image src='./images/cards.jpg' height="50vh"/>
+
+---
+
+## This is a card, cool right?
+
+<Image src='./images/9.jpg' height="50vh" width="40vh" css={{ margin: 'auto'}}/>
+
+---
+import FlipCard from './components/FlipCard'
+
+
+## Choose the want you want!
+
+<FlipCard image="./images/9.jpg" />
+
+---
+```jsx
+<CodeSnippet />
+```
+---
+import Demo from './components/Demo'
+
+<Demo />
+---
+# The end

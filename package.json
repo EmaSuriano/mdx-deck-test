@@ -1,0 +1,28 @@
+{
+  "name": "mdx-deck-test",
+  "version": "1.0.0",
+  "description": "Test using mdx-deck to create presentations",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmaSuriano/mdx-deck-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmaSuriano/mdx-deck-test/issues"
+  },
+  "homepage": "https://github.com/EmaSuriano/mdx-deck-test#readme",
+  "dependencies": {
+    "mdx-deck": "^1.5.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-card-flip": "^0.2.1",
+    "react-flipcard": "^0.2.1"
+  }
+}
